@@ -4,12 +4,22 @@
 apolloapi
 =========
 
+```
+apollo 开放平台接口，其接口包含了增删改查等基本功能，另外还有创建cluster,namespace等等。
+```
+
+# Installation
+
+```
+go get -u github.com/feichenxue/apolloapi
+```
+
 # 如何使用？
 
 
 ## 简单示例
 
-* 发布接口
+
 
 ```golang
 package main
