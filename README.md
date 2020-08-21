@@ -1,10 +1,11 @@
 ![apolloapi-go](https://img.shields.io/badge/apolloapi--go-v0.1-brightgreen)
+[![license](http://dmlc.github.io/img/apache2.svg)](https://github.com/feichenxue/apolloapi/blob/master/LICENSE)
 
 apolloapi
 =========
 
-如何使用？
-=========
+# 如何使用？
+
 
 ## 简单示例
 
