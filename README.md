@@ -2,12 +2,12 @@
 
 apolloapi
 =========
-****
 
-START
+如何使用？
 =========
-****
 
+* 发布接口
+---------
 ```golang
 package main
 
@@ -18,13 +18,13 @@ import (
 
 func main() {
 
-	url := "http://10.191.20.21:9500"
-	user := "apollo"
-	passwds := "1qaz2wsx"
+	url := "http://x.x.x.x:8080" //你的apollo port 地址
+	user := "apollo"     //apollo 用户名, 默认为 apollo
+	passwds := "xxxxx"  //apollo 密码
 
 	apollo := apolloapi.NewApollo(url, user, passwds)
 
-	ok, err := ap.ReleaseApollo("go-test4", "prd", "test", "default", "application")
+	ok, err := apollo.ReleaseApollo("go-test4", "prd", "test", "default", "application")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -34,3 +34,5 @@ func main() {
 	}
 }
 ```
+
+
