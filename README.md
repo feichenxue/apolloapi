@@ -11,14 +11,16 @@ apollo 开放平台接口，其接口包含了增删改查等基本功能，另�
 # Installation
 
 ```
+go version >= 1.14
+```
+
+```
 go get -u github.com/feichenxue/apolloapi
 ```
 
 # 如何使用？
 
-
 ## 简单示例
-
 
 
 ```golang
@@ -46,6 +48,14 @@ func main() {
 		fmt.Println("发布成功!!!")
 	}
 }
+```
+
+# 接口列表
+
+* func NewApollo
+
+```go
+func NewApollo(apollourl, username, passwd string) *Apolloapi
 ```
 
 
