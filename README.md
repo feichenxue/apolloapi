@@ -52,10 +52,21 @@ func main() {
 
 # 接口列表
 
-* func NewApollo
+* NewApollo
 
 ```go
 func NewApollo(apollourl, username, passwd string) *Apolloapi
 ```
 
+* CreateApolloProject
+
+```go
+func (apollo *Apolloapi) CreateApolloProject(appId, name, orgId, orgName, ownerName string) (bool, error)
+```
+
+* ReleaseApollo
+
+```go
+func (apollo *Apolloapi) ReleaseApollo(appid, env, comment, clustersName, namespaceName string) (bool, error)
+```
 
