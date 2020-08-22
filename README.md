@@ -57,16 +57,19 @@ func main() {
 ```go
 func NewApollo(apollourl, username, passwd string) *Apolloapi
 ```
+新建apollo一个对象，用以调用此包内的其它方法
 
 * CreateApolloProject
 
 ```go
 func (apollo *Apolloapi) CreateApolloProject(appId, name, orgId, orgName, ownerName string) (bool, error)
 ```
+新建apollo一个项目
 
 * ReleaseApollo
 
 ```go
 func (apollo *Apolloapi) ReleaseApollo(appid, env, comment, clustersName, namespaceName string) (bool, error)
 ```
+发布配置接口
 
