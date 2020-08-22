@@ -10,11 +10,11 @@ apollo 开放平台接口，其接口包含了增删改查等基本功能，另�
 
 # Installation
 
-```
-go version >= 1.14
+```bash
+go version >= 1.14 GO111MODULE=on
 ```
 
-```
+```bash
 go get -u github.com/feichenxue/apolloapi
 ```
 
