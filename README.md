@@ -39,7 +39,7 @@ func main() {
 
 	apollo := apolloapi.NewApollo(url, user, passwds)
 
-	ok, err := apollo.ReleaseApollo("go-test4", "prd", "test", "default", "application")
+	ok, err := apollo.ReleaseApollo("go-test-project", "prd", "comment-test", "default", "application")
 	if err != nil {
 		fmt.Println(err)
 	}
