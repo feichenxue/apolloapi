@@ -76,7 +76,7 @@ func (apollo *apolloApi) ReleaseApollo(appid, env, comment, clustersName, namesp
 * GetappIDList
 
 ```go
-func (apollo *apolloApi) GetappIDList() []string
+func (apollo *apolloApi) GetappIdList() []string
 ```
 获取apollos所有appid详细信息，其返回值类型为字符串切片
 

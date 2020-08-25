@@ -25,7 +25,7 @@ func NewApollo(apollourl, username, passwd string) *apolloApi {
 	}
 }
 
-func (apollo *apolloApi) GetappIDList() []string {
+func (apollo *apolloApi) GetappIdList() []string {
 	url := fmt.Sprintf("%s/apps/by-owner?owner=apollo", apollo.ApolloURL)
 	rspone, _ := apollo.Req.Get(url, requests.Auth{apollo.Username, apollo.Passwd})
 	var (
