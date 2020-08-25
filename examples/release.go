@@ -10,7 +10,7 @@ func main() {
 
 	url := "http://10.191.20.21:9500"
 	user := "apollo"
-	passwds := "1qaz2wsx"
+	passwds := "xxxxx"
 
 	apollo := apolloapi.NewApollo(url, user, passwds)
 
