@@ -73,15 +73,21 @@ func (apollo *apolloApi) ReleaseApollo(appid, env, comment, clustersName, namesp
 ```
 发布配置接口
 
+* GetappIDList
+
 ```go
 func (apollo *apolloApi) GetappIDList() []string
 ```
 获取apollos所有appid详细信息，其返回值类型为字符串切片
 
+* CreateCluster
+
 ```go
 func (apollo *apolloApi) CreateCluster(appId, env, clusterName string) (bool, error)
 ```
 创建Cluster
+
+* GetConfigData
 
 ```go
 func (apollo *apolloApi) GetConfigData(appId, env, clusters, namespaces string) (data map[string]string, err error)
