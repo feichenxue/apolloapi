@@ -87,7 +87,6 @@ func (apollo *apolloApi) CreateCluster(appId, env, clusterName string) (bool, er
 func (apollo *apolloApi) GetConfigData(appId, env, clusters, namespaces string) (data map[string]string, err error)
 ```
 获取相应appid的相应集群下相应namespaces下的配置
-```
 
 ```go
 未完待续······
