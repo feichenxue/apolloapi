@@ -55,29 +55,20 @@ func main() {
 * NewApollo
 
 ```go
-<<<<<<< HEAD
 func NewApollo(apollourl, username, passwd string) *apolloApi
-=======
-func NewApollo(apollourl, username, passwd string) *Apolloapi
->>>>>>> 60358bf1326ed4f3aff0400049abfff6ae3d14dd
 ```
 新建apollo一个对象，用以调用此包内的其它方法
 
 * CreateApolloProject
 
 ```go
-<<<<<<< HEAD
 func (apollo *apolloApi) CreateApolloProject(appId, name, orgId, orgName, ownerName string) (bool, error)
-=======
-func (apollo *Apolloapi) CreateApolloProject(appId, name, orgId, orgName, ownerName string) (bool, error)
->>>>>>> 60358bf1326ed4f3aff0400049abfff6ae3d14dd
 ```
 新建apollo一个项目
 
 * ReleaseApollo
 
 ```go
-<<<<<<< HEAD
 func (apollo *apolloApi) ReleaseApollo(appid, env, comment, clustersName, namespaceName string) (bool, error)
 ```
 发布配置接口
@@ -103,9 +94,3 @@ func (apollo *apolloApi) GetConfigData(appId, env, clusters, namespaces string) 
 ```
 
 
-=======
-func (apollo *Apolloapi) ReleaseApollo(appid, env, comment, clustersName, namespaceName string) (bool, error)
-```
-发布配置接口
-
->>>>>>> 60358bf1326ed4f3aff0400049abfff6ae3d14dd
