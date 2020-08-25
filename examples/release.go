@@ -24,4 +24,9 @@ func main() {
 		fmt.Println("发布成功!!!")
 	}
 
+	//获取apollo所有列表
+	data := apollo.GetappIdList()
+
+	fmt.Println(data)
+
 }
